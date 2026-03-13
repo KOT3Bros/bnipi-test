@@ -5,7 +5,10 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "types": ["vite/client"],
+    "types": [
+      "vite/client",
+      "unplugin-icons/types/vue"
+    ],
     "strict": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
