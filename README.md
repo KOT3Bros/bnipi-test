@@ -1,5 +1,19 @@
-# Vue 3 + TypeScript + Vite
+# Инструкция запуска
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+1. Склонируйте проект `git clone https://github.com/KOT3Bros/bnipi-test.git`
+2. Перейдите в директорию склонированного проекта `cd bnipi-test`
+3. Установите зависимости `npm i`
+4. Запустите проект `npm run dev`
+5. Ожидайте. Когда приложение запустится - в браузере автоматически откроется вкладка.
+# Общая информация
+Проект построен на Vue 3 с использованием Composition API и следует методологии Feature-Sliced Design (FSD) для организации кода. Для стилизации используется TailwindCSS в связке с Element Plus для UI компонентов.
+# Feature-Sliced Design (FSD)
+FSD — это методология архитектуры фронтенд-приложений, которая разделяет код по функциональным модулям (слайсам) и слоям. Основная идея: изоляция бизнес-логики от деталей реализации.
+# Технологический стек
+- Vue 3 — основной фреймворк
+- Composition API — для организации логики компонентов
+- TypeScript — типизация
+- Element Plus — библиотека готовых UI компонентов
+- TailwindCSS — утилитарный CSS фреймворк
+- Pinia — store management для управления состоянием
+- Axios — для API запросов
